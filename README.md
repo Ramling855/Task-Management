@@ -1,5 +1,5 @@
 
-# Task Manager with Firebase Authentication
+# Task Manager without Authentication
 
 This is a React-based task management application that allows users to manage their tasks. It includes features like adding, editing, deleting, and completing tasks. The application supports task filtering based on completion status and persists task data using local storage. Users can sign in with Google using Firebase authentication, ensuring that each user's tasks are stored separately.
 
@@ -41,8 +41,8 @@ This is a React-based task management application that allows users to manage th
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/Ramling855/Task-Management-Auth.git
-cd Task-Management-Auth
+git clone https://github.com/Ramling855/Task-Management.git
+cd Task-Management
 ```
 
 2. Install dependencies:
@@ -63,14 +63,12 @@ npm start
 src/
 │
 ├── components/
-│   ├── Auth.js
 │   ├── TaskForm.js
 │   ├── TaskList.js
 │   ├── TaskItem.js
 │   └── TaskFilter.js
 │
 ├── App.js
-├── firebase.js
 └── index.js
 ```
 
